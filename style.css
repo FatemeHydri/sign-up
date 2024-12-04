@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/01-YekanBakh-Hairline.woff2') format('woff2');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/02-YekanBakh-Thin.woff2') format('woff2');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/03-YekanBakh-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/04-YekanBakh-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/05-YekanBakh-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/06-YekanBakh-Bold.woff2') format('woff2');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Vazirmatn;
+    src: url('assets/fonts/woff2/07-YekanBakh-Heavy.woff2') format('woff2');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Yekan-Bakh;
+    src: url('assets/fonts/woff2/08-YekanBakh-Fat.woff2') format('woff2');
+    font-weight: 800;
+}
+
+body {
+    font-family: Yekan-Bakh;
+    background: #0D1116;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+.left {
+    margin:12px 12px 0 12px;
+    border-radius: 32px;
+    background: linear-gradient(148deg, #10412F 0%, #000 100%);
+}
+
+.down {
+    margin-top: 580px;
+}
+
+.title {
+    gap: 175px;
+}
+
+.cards {
+    margin-top: 40px;
+}
+
+.card-title {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+
+.card-text.one {
+    color: #000;
+}
+
+.card.dif {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15.999998092651367px);
+}
+
+.card-text.two,
+.card-text.three {
+    color: rgba(255, 255, 255, 0.80)
+}
+
+.card-title.two,
+.card-title.three {
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+    background: rgba(255, 255, 255, 0.16);
+
+}
+.data {
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.google,
+.github {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
+
+.google img,
+.github img {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    width: 194px;
+    height: 1px;
+}
+
+.form-control {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.10);
+    border: none;
+}
+.signin {
+    background: #fff;
+}
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.10);
+}
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.72);
+}
+/* .pass {
+    background-image: url(assets/images/Frame.svg);
+    background-position: 310px center ;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+} */
+form {
+    padding: 140px 96px;
+}
